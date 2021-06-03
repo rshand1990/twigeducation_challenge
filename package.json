@@ -1,0 +1,19 @@
+{
+  "name": "twigeducation",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rshand1990/twigeducation_challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rshand1990/twigeducation_challenge/issues"
+  },
+  "homepage": "https://github.com/rshand1990/twigeducation_challenge#readme",
+  "type": "module"
+}

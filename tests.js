@@ -1,17 +1,4 @@
-const groupArrayElements = (arr, split) => {
-    if (split > 0) {
-        const groupSize = Math.round(arr.length / split);
-
-        let groupedArrays = [];
-
-        for (let i = 0; (i < arr.length); i += groupSize) {
-            groupedArrays.push(arr.slice(i, i + groupSize));
-        }
-
-        return groupedArrays;
-    }
-    return arr;
-}
+import groupArrayElements from './groupArrayElements.js';
 
 const testSplittingArrayInto3 = () => {
     if (JSON.stringify(groupArrayElements([1, 2, 3, 4, 5], 3)) === JSON.stringify([ [ 1, 2 ], [ 3, 4 ], [ 5 ] ])) {
